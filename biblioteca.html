@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mutual de Seguridad - Centro de Cultura de Seguridad</title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/unsemantic-grid-responsive-tablet.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<header>
+		<div class="grid-100 grid-parent">
+			<div class="grid-container">
+				<div class="grid-15 tablet-grid-15 mobile-grid-40">
+					<img src="assets/images/logo.png">
+				</div>
+				<div class="grid-55 espacio-20 tablet-grid-55 hide-on-mobile">
+					<span class="ccs">
+						CENTRO DE CULTURA DE SEGURIDAD
+					</span>
+					<br>
+					<span class="ggc">
+						Gerencia de Gestión del Conocimiento
+					</span>
+				</div>
+				<div class="grid-30 espacio-20 tablet-grid-30 mobile-grid-60">
+					<div class="rrss">
+						<span>
+							Síguenos en
+						</span>
+						<ul>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-youtube"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<div class="grid-100 grid-parent hide-on-mobile">
+				<div class="grid-container">
+					<div class="grid-14">
+						<a href="index.html">INICIO</a>
+					</div>
+					<div class="grid-14">
+						<a href="quienes-somos.html">QUIÉNES SOMOS</a>
+					</div>
+					<div class="grid-14">
+						<a href="actividades.html">ACTIVIDADES</a>
+					</div>
+					<div class="grid-14 active">
+						<a href="biblioteca.html" class="active">BIBLIOTECA</a>
+					</div>
+					<div class="grid-14">
+						<a href="modelos.html">MODELOS</a>
+					</div>
+					<div class="grid-14">
+						<a href="redes.html">REDES</a>
+					</div>
+					<div class="grid-14">
+						<a href="contacto.html">CONTACTO</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-100 grid-parent hide-on-tablet hide-on-desktop">
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="index.html">INICIO</a>
+					<a href="quienes-somos.html">QUIÉNES SOMOS</a>
+					<a href="actividades.html">ACTIVIDADES</a>
+					<a href="biblioteca.html" class="active">BIBLIOTECA</a>
+					<a href="modelos.html">MODELOS</a>
+					<a href="redes.html">REDES</a>
+					<a href="contacto.html">CONTACTO</a>
+				</div>
+				<div class="menu-mobile" onclick="openNav()">
+					&#9776;
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="grid-100 grid-parent banner-biblioteca">
+		<img src="assets/images/banner-biblioteca.png">
+		<div class="grid-container banner-biblioteca-search hide-on-mobile">
+			<div id="tabs" >
+				<ul>
+					<li>
+						<a href="#tabs-1">MATERIAL TÉCNICO</a>
+					</li>
+					<li>
+						<a href="#tabs-2">PUBLICACIONES</a>
+					</li>
+				</ul>
+				<div id="tabs-1">
+					<div class="grid-50 tablet-grid-50">
+						<input type="text" placeholder="Busca tu documento…">
+					</div>
+					<div class="grid-15 tablet-grid-15">
+						<input type="text" placeholder="DESDE" class="desde-hasta" id="calendario1" ></input>
+					</div>
+					<div class="grid-15 tablet-grid-15">
+						<input type="text" placeholder="HASTA" class="desde-hasta" id="calendario2"></input>
+					</div>
+					<div class="grid-20 tablet-grid-20">
+						<button class="buscar">BUSCAR</button>
+					</div>
+				</div>
+				<div id="tabs-2">
+					<div class="grid-50 tablet-grid-50">
+						<input type="text" placeholder="Busca tu documento…">
+					</div>
+					<div class="grid-15 tablet-grid-15">
+						<input type="text" placeholder="DESDE" class="desde-hasta" id="calendario3"></input>
+					</div>
+					<div class="grid-15 tablet-grid-15">
+						<input type="text" placeholder="HASTA" class="desde-hasta" id="calendario4"></input>
+					</div>
+					<div class="grid-20 tablet-grid-20">
+						<button class="buscar">BUSCAR</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section>
+		<div class="grid-100 grid-parent bg-titulo-descarga">
+			<div class="grid-container grid-parent">
+				<h3><span class="titulo-descarga">DESCARGA NUESTROS DOCUMENTOS</span></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+		<div class="grid-100 grid-parent bg-biblioteca">
+			<div class="grid-container grid-parent">
+				<div class="grid-100 grid-parent menu-biblioteca">
+					<div class="grid-20 tablet-grid-25 mobile-grid-50">
+						<span>
+							<a href="javascript:void(0);" class="active">MATERIAL TÉCNICO</a>
+						</span>
+					</div>
+					<div class="grid-20 tablet-grid-25 mobile-grid-50">
+						<span>
+							<a href="javascript:void(0);">PUBLICACIONES</a>
+						</span>
+					</div>
+				</div>
+				<div class="grid-100 grid-parent" id="caja1" >
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-01.png">
+							<div class="formato-pdf">
+								PDF
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-02.png">
+							<div class="formato-pdf">
+								PDF
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-03.png">
+							<div class="formato-xls">
+								XLS
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-04.png">
+							<div class="formato-ppt">
+								PPT
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid-100 grid-parent espacio-50" id="caja2" >
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-01.png">
+							<div class="formato-pdf">
+								PDF
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-02.png">
+							<div class="formato-pdf">
+								PDF
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-03.png">
+							<div class="formato-xls">
+								XLS
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 tablet-grid-25 mobile-grid-100">
+						<div class="grid-100 grid-parent descarga">
+							<img src="assets/images/material-tecnico-04.png">
+							<div class="formato-ppt">
+								PPT
+							</div>
+							<div class="padding-descarga">
+								<p>Los factores humanos y organizativos en los proyectos de concepción de sistemas de riesgo.</p>
+								<div class="grid-100 grid-parent">
+									<a class="grid-100 grid-parent btn-descargar">
+										DESCARGAR <img src="assets/images/btn-descargar.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<ul class="pagination">
+						<li id="anterior">
+							<a href="javascript:void(0);" class="siguiente">ANTERIOR</a>
+						</li>
+						<li class="active" >
+							<a href="javascript:void(0);">1</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">2</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">3</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">4</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">5</a>
+						</li>
+						<li id="siguiente">
+							<a href="javascript:void(0);" class="siguiente">SIGUIENTE</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="grid-100 grid-parent">
+			<div class="grid-55 grid-parent tablet-grid-55 hide-on-mobile">
+				<div id="map" style="width:100%; height:450px"></div>
+			</div>
+			<div class="grid-45 grid-parent info-contacto tablet-grid-45 hide-on-mobile">
+				<h3>INFORMACIÓN DE CONTACTO</h3>
+				<p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id.</p>
+				<ul class="espacio-50">
+					<li>
+						<i class="fa fa-map-marker"></i> Teatinos 258, Santiago Centro
+					</li>
+					<li>
+						<i class="fa fa-envelope"></i> <a href="mailto:info@mail.com">info@mail.com</a>
+					</li>
+					<li>
+						<i class="fa fa-phone"></i> <a href="Tel:+56227879188">(56-2) 2787 9188</a>
+					</li>
+				</ul>
+				<div class="grid-100 grid-parent">
+					<img src="assets/images/logo-footer.png">
+					<span class="iniciativa">
+						Una iniciativa de
+					</span> 
+					<span class="mutual">
+						<a href="https://www.mutual.cl" target="_blank">MUTUAL</a>
+					</span>
+				</div>
+			</div>
+			<div class="grid-100 grid-parent footer-mobile hide-on-tablet hide-on-desktop">
+				<img src="assets/images/logo-footer.png">
+				<span class="iniciativa">
+					Una iniciativa de
+				</span> 
+				<span class="mutual">
+					<a href="https://www.mutual.cl" target="_blank">MUTUAL</a>
+				</span>
+			</div>
+		</div>
+	</footer>
+	<link href="assets/css/fonts.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/jquery-ui.css" rel="stylesheet">
+	<link href="assets/jquery-ui/jquery-ui.theme.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="assets/js/datepicker-es.js"></script>
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		(function ($) {
+			$.support.placeholder = ('placeholder' in document.createElement('input'));
+		})(jQuery);
+		//fix for IE7 and IE8
+		$(function () {
+			if (!$.support.placeholder) {
+				$("[placeholder]").focus(function () {
+					if ($(this).val() == $(this).attr("placeholder")) $(this).val("");
+				}).blur(function () {
+					if ($(this).val() == "") $(this).val($(this).attr("placeholder"));
+				}).blur();
+				$("[placeholder]").parents("form").submit(function () {
+					$(this).find('[placeholder]').each(function() {
+						if ($(this).val() == $(this).attr("placeholder")) {
+							$(this).val("");
+						}
+					});
+				});
+			}
+		});
+		$( "#tabs" ).tabs();
+		function myMap() {
+			var mapCanvas = document.getElementById("map");
+			var mapOptions = {
+				center: new google.maps.LatLng(-33.440313,-70.655200),
+				zoom: 16,
+			}
+			var map = new google.maps.Map(mapCanvas, mapOptions);
+			var image = 'assets/images/marker.png';
+			var beachMarker = new google.maps.Marker({
+				position: {lat: -33.440313, lng: -70.655200},
+				map: map,
+				icon: image
+			});
+		}
+		$("#anterior").hide();
+		var page = 1;
+		$(".pagination li a").click(function(){
+			$("#caja1,#caja2").hide().fadeIn();
+			var active = $(".pagination").find("li.active");
+			$(".pagination li").removeClass("active");
+			var page_actual = $(this).text().trim();
+			if( page_actual!="1" && page_actual!="5" ){
+				$("#siguiente,#anterior").show();
+			}else if( page_actual=="1" ){
+				$("#anterior").hide();
+				$("#siguiente").show();
+			}else if( page_actual=="5" ){
+				$("#siguiente").hide();
+				$("#anterior").show();
+			}
+			if( page_actual=="SIGUIENTE" ){
+				page++;
+				if( page<5 ){
+					$(active).next().addClass("active");
+				}else{
+					$("#siguiente").hide();
+					$(active).next().addClass("active");
+				}
+			}else if( page_actual=="ANTERIOR" ){
+					page--;
+				if( page>1 ){
+					$(active).prev().addClass("active");
+				}else{
+					$("#anterior").hide();
+					$(active).prev().addClass("active");
+				}
+			}else{
+				page = page_actual;
+				$(this).parent().addClass("active");
+			}
+		});
+		$("#calendario1,#calendario2,#calendario3,#calendario4").datepicker($.datepicker.regional[ "es" ]);
+		setTimeout(function(){
+			$(".banner-biblioteca-search").fadeIn();
+		},100);
+		$(".menu-biblioteca a").click(function(){
+			$(".menu-biblioteca a").removeClass("active");
+			$(this).addClass("active");
+			$("#caja1,#caja2").hide().fadeIn();
+		});
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+</html>

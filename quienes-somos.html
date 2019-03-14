@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mutual de Seguridad - Centro de Cultura de Seguridad</title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/unsemantic-grid-responsive-tablet.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<header>
+		<div class="grid-100 grid-parent">
+			<div class="grid-container">
+				<div class="grid-15 tablet-grid-15 mobile-grid-40">
+					<img src="assets/images/logo.png">
+				</div>
+				<div class="grid-55 espacio-20 tablet-grid-55 hide-on-mobile">
+					<span class="ccs">
+						CENTRO DE CULTURA DE SEGURIDAD
+					</span>
+					<br>
+					<span class="ggc">
+						Gerencia de Gestión del Conocimiento
+					</span>
+				</div>
+				<div class="grid-30 espacio-20 tablet-grid-30 mobile-grid-60">
+					<div class="rrss">
+						<span>
+							Síguenos en
+						</span>
+						<ul>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-youtube"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<div class="grid-100 grid-parent hide-on-mobile">
+				<div class="grid-container">
+					<div class="grid-14">
+						<a href="index.html">INICIO</a>
+					</div>
+					<div class="grid-14 active">
+						<a href="quienes-somos.html" class="active">QUIÉNES SOMOS</a>
+					</div>
+					<div class="grid-14">
+						<a href="actividades.html">ACTIVIDADES</a>
+					</div>
+					<div class="grid-14">
+						<a href="biblioteca.html">BIBLIOTECA</a>
+					</div>
+					<div class="grid-14">
+						<a href="modelos.html">MODELOS</a>
+					</div>
+					<div class="grid-14">
+						<a href="redes.html">REDES</a>
+					</div>
+					<div class="grid-14">
+						<a href="contacto.html">CONTACTO</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-100 grid-parent hide-on-tablet hide-on-desktop">
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="index.html">INICIO</a>
+					<a href="quienes-somos.html" class="active">QUIÉNES SOMOS</a>
+					<a href="actividades.html">ACTIVIDADES</a>
+					<a href="biblioteca.html">BIBLIOTECA</a>
+					<a href="modelos.html">MODELOS</a>
+					<a href="redes.html">REDES</a>
+					<a href="contacto.html">CONTACTO</a>
+				</div>
+				<div class="menu-mobile" onclick="openNav()">
+					&#9776;
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="quienes">
+		<div class="slider-wrapper">
+			<div class="caja-loaders">
+				<ul>
+					<li onclick="goSlide(1);">
+						<span class="rojo">GERENCIA</span>
+						<div class="progress1"></div>
+						<div class="img_list_carousel" style="background-image: url(assets/images/banner-quienes-somos.png);"></div>
+					</li>
+					<li onclick="goSlide(2);">
+						<span class="naranjo">CULTURA DE SEGURIDAD</span>
+						<div class="progress2"></div>
+						<div class="img_list_carousel" style="background-image: url(assets/images/banner-quienes-somos.png);"></div>
+					</li>
+					<li onclick="goSlide(3);">
+						<span class="azul">SALUD</span>
+						<div class="progress3"></div>
+						<div class="img_list_carousel" style="background-image: url(assets/images/banner-quienes-somos.png);"></div>
+					</li>
+					<li onclick="goSlide(4);">
+						<span class="morado">CAMPOS DE ENTRENAMIENTO</span>
+						<div class="progress4"></div>
+						<div class="img_list_carousel" style="background-image: url(assets/images/banner-quienes-somos.png);"></div>
+					</li>
+					<li onclick="goSlide(5);">
+						<span class="verde">OTROS CENTROS</span>
+						<div class="progress5"></div>
+						<div class="img_list_carousel" style="background-image: url(assets/images/banner-quienes-somos.png);"></div>
+					</li>
+				</ul>
+			</div>
+			<div class="slider slider-quienes">
+				<div>
+					<div class="grid-100 grid-parent">
+						<div class="texto-slider-quienes">
+							<h3><span class="titulo-slider-quienes">¿QUIÉNES SOMOS? 1</span></h3>
+							<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante. Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo.</p>
+						</div>
+						<img class="img-init" src="assets/images/banner-quienes-somos.png" width="100%">
+					</div>
+				</div>
+				<div>
+					<div class="grid-100 grid-parent">
+						<div class="texto-slider-quienes">
+							<h3><span class="titulo-slider-quienes">¿QUIÉNES SOMOS? 2</span></h3>
+							<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante. Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo.</p>
+						</div>
+						<img class="img-init" src="assets/images/banner-quienes-somos.png" width="100%">
+					</div>
+				</div>
+				<div>
+					<div class="grid-100 grid-parent">
+						<div class="texto-slider-quienes">
+							<h3><span class="titulo-slider-quienes">¿QUIÉNES SOMOS? 3</span></h3>
+							<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante. Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo.</p>
+						</div>
+						<img class="img-init" src="assets/images/banner-quienes-somos.png" width="100%">
+					</div>
+				</div>
+				<div>
+					<div class="grid-100 grid-parent">
+						<div class="texto-slider-quienes">
+							<h3><span class="titulo-slider-quienes">¿QUIÉNES SOMOS? 4</span></h3>
+							<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante. Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo.</p>
+						</div>
+						<img class="img-init" src="assets/images/banner-quienes-somos.png" width="100%">
+					</div>
+				</div>
+				<div>
+					<div class="grid-100 grid-parent">
+						<div class="texto-slider-quienes">
+							<h3><span class="titulo-slider-quienes">¿QUIÉNES SOMOS? 5</span></h3>
+							<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante. Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo.</p>
+						</div>
+						<img class="img-init" src="assets/images/banner-quienes-somos.png" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section>
+	<div class="grid-100 grid-parent bg-tabs">
+		<div class="grid-container">
+			<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante.</p>
+			<p>At ipsum vitae est lacinia tincidunt. Maecenas elit orci,gravida ut, molestie non, venenatis vel, lorem. Sedlacinia. Suspendisse potenti. Sed ultricies cursuslectus. In id magna sit amet nibh suspicit euismod.Integer enim. Donec sapien ante, accumsan ut,sodales commodo, auctor quis, lacus. Maecenas a elitlacinia urna posuere sodales. Curabitur pede pede,molestie id, blandit vitae, varius ac, purus. Mauris atipsum vitae est lacinia tincidunt.</p>
+			<p>Donec sapien ante, accumsan ut, sodales commodo, auctorquis, lacus. Maecenas a elit lacinia urna posuere sodales. Curabitur pede pede, molestie id,blandit vitae, varius ac, purus.</p>
+				<div class="grid-100 grid-parent menu-quienes-somos">
+					<div class="grid-20 tablet-grid-20 mobile-grid-100">
+						<span>
+							<a href="javascript:void(0);" class="gerencia active">GERENCIA</a>
+						</span>
+					</div>
+					<div class="grid-20 tablet-grid-20 mobile-grid-100">
+						<span>
+							<a href="javascript:void(0);" class="culturaseguridad">CULTURA DE SEGURIDAD</a>
+						</span>
+					</div>
+					<div class="grid-20 tablet-grid-20 mobile-grid-100">
+						<span>
+							<a href="javascript:void(0);" class="salud">SALUD</a>
+						</span>
+					</div>
+					<div class="grid-20 tablet-grid-20 mobile-grid-100">
+						<span>
+							<a href="javascript:void(0);" class="camposentrenamiento">CAMPOS DE ENTRENAMIENTO</a>
+						</span>
+					</div>
+					<div class="grid-20 tablet-grid-20 mobile-grid-100">
+						<span>
+							<a href="javascript:void(0);" class="otroscentros">OTROS CENTROS</a>
+						</span>
+					</div>
+				</div>
+				<div class="grid-100 grid-parent" id="contenedor-cajas">
+					<div class="grid-50 grid-parent tablet-grid-100 mobile-grid-100">
+						<div class="grid-100 tablet-grid-50">
+							<div class="centro-cultura">
+								<a class="thumb group1" href="assets/images/gerencia-01.png">
+									<img src="assets/images/gerencia-01.png">
+								</a>
+								<div class="descripcion-img">
+									<h3><span class="titulo-descripcion">LOREM IPSUM DOLOR SIT AMET</span></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-100 tablet-grid-50">
+							<div class="centro-cultura">
+								<a class="thumb group1" href="assets/images/gerencia-02.png">
+									<img src="assets/images/gerencia-02.png">
+								</a>
+								<div class="descripcion-img">
+									<h3><span class="titulo-descripcion">LOREM IPSUM DOLOR SIT AMET</span></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-50 grid-parent tablet-grid-100 mobile-grid-100">
+						<div class="grid-50 tablet-grid-50 mobile-grid-100">
+							<div class="centro-cultura">
+								<a class="thumb group1" href="assets/images/gerencia-03.png">
+									<img src="assets/images/gerencia-03.png">
+								</a>
+								<div class="descripcion-img">
+									<h3><span class="titulo-descripcion">LOREM IPSUM DOLOR SIT AMET</span></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-50 tablet-grid-50 mobile-grid-100">
+							<div class="centro-cultura">
+								<a class="thumb group1" href="assets/images/gerencia-04.png">
+									<img src="assets/images/gerencia-04.png">
+								</a>
+								<div class="descripcion-img">
+									<h3><span class="titulo-descripcion">LOREM IPSUM DOLOR SIT AMET</span></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-100">
+							<div class="centro-cultura">
+								<a class="thumb group1" href="assets/images/gerencia-05.png">
+									<img src="assets/images/gerencia-05.png">
+								</a>
+								<div class="descripcion-img">
+									<h3><span class="titulo-descripcion">LOREM IPSUM DOLOR SIT AMET</span></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section>
+		<div class="grid-100 grid-parent espacio-50 principales-actividades">
+			<div class="grid-container">
+				<h3><span class="titulo-actividades">PRINCIPALES ACTIVIDADES QUE SE EFECTÚAN</span></h3>
+				<p>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. Duis tellus. Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper, purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt, lorem nev dapibusconsectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante.</p>
+				<p>At ipsum vitae est lacinia tincidunt. Maecenas elit orci,gravida ut, molestie non, venenatis vel, lorem. Sedlacinia. Suspendisse potenti. Sed ultricies cursuslectus. In id magna sit amet nibh suspicit euismod.Integer enim. Donec sapien ante, accumsan ut,sodales commodo, auctor quis, lacus. Maecenas a elitlacinia urna posuere sodales. Curabitur pede pede,molestie id, blandit vitae, varius ac, purus. Mauris atipsum vitae est lacinia tincidunt. Maecenas elit orci, gravida ut, molestie non, venenatis vel,lorem. Sed lacinia. Suspendisse potenti. Sed ultrucies cursus lectus. In id magna sit amet nibhsuspicit euismod. Integer enim. Donec sapien ante, accumsan ut, sodales commodo, auctorquis, lacus.</p>
+				<p><span class="destacado">Maecenas a elit lacinia urna posuere sodales. Curabitur pede pede, molestie id,blandit vitae, varius ac, purus.</span></p>
+				<div class="grid-100 grid-parent espacio-20">
+					<div class="grid-50 grid-parent actividades tablet-grid-50 mobile-grid-100">
+						<div class="grid-100 grid-parent">
+							<div class="grid-10 grid-parent tablet-grid-10 mobile-grid-10">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</div>
+							<div class="grid-90 grid-parent tablet-grid-90 mobile-grid-90">
+								<p>Núcleo de expertos de la construcción.</p>
+							</div>
+						</div>
+						<div class="grid-100 grid-parent espacio-20">
+							<div class="grid-10 grid-parent tablet-grid-10 mobile-grid-10">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</div>
+							<div class="grid-90 grid-parent tablet-grid-90 mobile-grid-90">
+								<p>Núcleo de expertos del sector financiero bancario.</p>
+							</div>
+						</div>
+						<div class="grid-100 grid-parent">
+							<div class="grid-10 grid-parent tablet-grid-10 mobile-grid-10">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</div>
+							<div class="grid-90 grid-parent tablet-grid-90 mobile-grid-90">
+								<p>Grupo de profesionales de energía y telecomunicaciones.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-50 grid-parent actividades tablet-grid-50 mobile-grid-100">
+						<div class="grid-100 grid-parent">
+							<div class="grid-10 grid-parent tablet-grid-10 mobile-grid-10">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</div>
+							<div class="grid-90 grid-parent tablet-grid-90 mobile-grid-90">
+								<p>Mesa de trabajo de transportes carga por carretera.</p>
+							</div>
+						</div>
+						<div class="grid-100 grid-parent espacio-20">
+							<div class="grid-10 grid-parent tablet-grid-10 mobile-grid-10">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</div>
+							<div class="grid-90 grid-parent tablet-grid-90 mobile-grid-90">
+								<p>Mesa de transporte distribución y logística.</p>
+							</div>
+						</div>
+						<div class="grid-100 grid-parent">
+							<div class="grid-10 grid-parent tablet-grid-10 mobile-grid-10">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</div>
+							<div class="grid-90 grid-parent tablet-grid-90 mobile-grid-90">
+								<p>Mesa de trabajo de transporte público.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="grid-100 grid-parent bg-equipo">
+			<div class="grid-container grid-parent">
+				<h3><span class="titulo-equipo">NUESTRO EQUIPO</span></h3>
+				<p><span class="equipo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</span></p>
+				<div class="espacio-50">
+					<div id="team-showcase" class="util-carousel team-showcase">
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-01.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									John Smith
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-02.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									Mary Smith
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-03.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									Alisa Lee
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-04.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									Jason Doe
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-01.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									John Smith
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-02.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									Mary Smith
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-03.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									Alisa Lee
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media-holder">
+								<img src="assets/images/equipo-04.png">
+							</div>
+							<div class="detail-container">
+								<div class="detail-title">
+									Jason Doe
+								</div>
+								<div class="detail-subtitle">
+									Web Designer
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="grid-100 grid-parent">
+			<div class="grid-55 grid-parent tablet-grid-55 hide-on-mobile">
+				<div id="map" style="width:100%; height:450px"></div>
+			</div>
+			<div class="grid-45 grid-parent info-contacto tablet-grid-45 hide-on-mobile">
+				<h3>INFORMACIÓN DE CONTACTO</h3>
+				<p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id.</p>
+				<ul class="espacio-50">
+					<li>
+						<i class="fa fa-map-marker"></i> Teatinos 258, Santiago Centro
+					</li>
+					<li>
+						<i class="fa fa-envelope"></i> <a href="mailto:info@mail.com">info@mail.com</a>
+					</li>
+					<li>
+						<i class="fa fa-phone"></i> <a href="Tel:+56227879188">(56-2) 2787 9188</a>
+					</li>
+				</ul>
+				<div class="grid-100 grid-parent">
+					<img src="assets/images/logo-footer.png">
+					<span class="iniciativa">
+						Una iniciativa de
+					</span> 
+					<span class="mutual">
+						<a href="https://www.mutual.cl" target="_blank">MUTUAL</a>
+					</span>
+				</div>
+			</div>
+			<div class="grid-100 grid-parent footer-mobile hide-on-tablet hide-on-desktop">
+				<img src="assets/images/logo-footer.png">
+				<span class="iniciativa">
+					Una iniciativa de
+				</span> 
+				<span class="mutual">
+					<a href="https://www.mutual.cl" target="_blank">MUTUAL</a>
+				</span>
+			</div>
+		</div>
+	</footer>
+	<link href="assets/css/fonts.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/colorbox.css" rel="stylesheet">
+	<link href="assets/css/util.carousel.css" rel="stylesheet">
+	<link href="assets/css/util.carousel.skins2.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/jquery.colorbox-min.js"></script>
+	<script src="assets/js/jquery.anyslider.min.js"></script>
+	<script src="assets/js/jquery.utilcarousel.min.js"></script>
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		var slide_position = 1;
+		var firt_ejecution = 0;
+		$(function () {
+			$('.progress'+slide_position).animate({ width: '100%' }, 3000);
+			//$('.progress'+slide_position).next("div").css("opacity",.2);
+			$('.progress'+slide_position).next("div").animate({ opacity: .2 }, 1000);
+			$('.slider').anyslider({
+				interval: 3000,
+				animation: 'fade',
+				startSlide: slide_position,
+				beforeChange: function(){
+					$('.progress1,.progress2,.progress3,.progress4,.progress5').stop();
+					$('.progress1,.progress2,.progress3,.progress4,.progress5').width(0);
+					if( slide_position==1 && firt_ejecution==0 ){
+						slide_position++;
+						firt_ejecution++;
+					}
+					$('.progress1,.progress2,.progress3,.progress4,.progress5').next("div").css("opacity",0);
+					$('.progress'+slide_position).animate({ width: '100%' }, 3000);
+					$//('.progress'+slide_position).next("div").css("opacity",.2);
+					$('.progress'+slide_position).next("div").animate({ opacity: .2 }, 1000);
+				},
+				afterChange:function(){
+					slide_position++;
+					if( slide_position>5 ){
+						slide_position=1;
+					}
+				}
+			});
+			var slider = $('.slider').anyslider();
+			var anyslider = slider.data('anyslider');
+			anyslider.play();
+		});
+		function goSlide(p){
+			slide_position = p;
+			$('.progress1,.progress2,.progress3,.progress4,.progress5').stop();
+			$('.progress1,.progress2,.progress3,.progress4,.progress5').next("div").css("opacity",0);
+			$('.progress1,.progress2,.progress3,.progress4,.progress5').next("div").stop();
+			$('.progress1,.progress2,.progress3,.progress4,.progress5').width(0);
+			var slider = $('.slider').anyslider();
+			var anyslider = slider.data('anyslider');
+			anyslider.goTo(p);
+		}
+		var height = 0;
+		$(document).ready(function(){
+			$.each($(".img-init"),function(index,element) {
+			if( $(element).height()>0 ){
+				height = $(element).height();
+				$(".slider,.quienes").height(height);
+			}
+			});
+		});
+		function resizedw(){
+			$.each($(".img-init"),function(index,element) {
+			if( $(element).height()>0 ){
+				height = $(element).height();
+				$(".slider,.quienes").height(height);
+			}
+			});
+		}
+		var doit;
+		window.onresize = function(){
+			clearTimeout(doit);
+			doit = setTimeout(resizedw, 1);
+		};
+		$(document).ready(function(){
+			$(".group1").colorbox({rel:'group1'});
+			$(".group2").colorbox({rel:'group2', transition:"fade"});
+			$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+			$(".group4").colorbox({rel:'group4', slideshow:true});
+			$(".ajax").colorbox();
+			$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+			$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+			$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+			});
+			$('.non-retina').colorbox({rel:'group5', transition:'none'})
+			$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+			$("#click").click(function(){
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+		$('#team-showcase').utilCarousel({
+			responsiveMode : 'itemWidthRange',
+			itemWidthRange : [100, 360],
+			navigation : true,
+			navigationText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		});
+		function myMap() {
+			var mapCanvas = document.getElementById("map");
+			var mapOptions = {
+				center: new google.maps.LatLng(-33.440313,-70.655200),
+				zoom: 16,
+			}
+			var map = new google.maps.Map(mapCanvas, mapOptions);
+			var image = 'assets/images/marker.png';
+			var beachMarker = new google.maps.Marker({
+				position: {lat: -33.440313, lng: -70.655200},
+				map: map,
+				icon: image
+			});
+		}
+		$(".menu-quienes-somos a").click(function(){
+			$(".menu-quienes-somos a").removeClass("active");
+			$(this).addClass("active");
+			$("#contenedor-cajas").hide().fadeIn();
+		});
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+</html>
